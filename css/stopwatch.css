@@ -1,0 +1,45 @@
+body {
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 450% 450%;
+    text-align: center;
+    animation: Gradient 15s ease infinite;
+    margin: 0 auto;
+    position:relative;
+    bottom: -30%;
+  }
+  
+  @keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+} 
+
+  p {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 30px;
+    background: none;
+    border: 1px dotted #fff;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 0 5px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  button:hover{
+    border: 2px solid rgb(32, 147, 189);
+    color:  #23A6D5;
+    background: #fff;
+  } 
